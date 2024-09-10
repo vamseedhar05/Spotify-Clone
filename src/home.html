@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Wave</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Set the background color of the navigation bar */
+    .vroom {
+      background-color: black;
+      color: #bcb6b6;
+      background-image: url(reyy.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    body {
+      background-color: black;
+      color: #d5d5d5;
+    }
+
+    .koii {
+      font-size: xxx-large;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background: -webkit-linear-gradient(180deg,#eee 80%, #333);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 10px;
+    }
+
+    .zoii {
+      font-size: x-large;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background: -webkit-linear-gradient(180deg,#eee 80%, #333);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 10px;
+    }
+
+    .navbar {
+      background: linear-gradient(90deg,#bababa,#868282,#3a3232  );
+      /* Add any other styles you want for the navigation bar */
+      display: flex;
+      position: fixed;
+      width: 100%;
+      z-index: 9999;
+      /* Set display property to flex */
+    }
+
+    .wave {
+      color: #bcb6b6;
+      /* Set the text color to white */
+      text-decoration: none;
+      /* Remove underline */
+      padding: 20px 50px;
+      /* Add padding for spacing */
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: x-large;
+    }
+
+    /* Style the navigation links */
+    .navbar a {
+      /* Add any styles you want for the navigation links */
+      /* color: #E5B8F4; Set the text color to white */
+      color: #1d1d1d;
+      /* Set the text color to white */
+      text-decoration: none;
+      /* Remove underline */
+      padding: 20px 50px;
+      /* Add padding for spacing */
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: x-large;
+    }
+
+    /* Style the navigation links on hover */
+    .navbar a:hover {
+      /* Add any styles you want for the navigation links on hover */
+      background-color: black;
+      opacity: 0.8;
+      /* Set background color to white */
+      color: white
+        /* Set text color to red */
+    }
+
+    .grid-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    text-align: center;
+  }
+  .grid-item {
+    position: relative;
+    /* overflow: hidden; */
+  }
+  .grid-item img {
+    width: 80%;
+    border-radius: 10px;
+    height: auto;
+    transition: transform 0.5s ease;
+  }
+  .grid-item:hover img {
+    transform: scale(1.1);
+  }
+  .grid-item h3 {
+    position:absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 1.4rem;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  .grid-item:hover h3 {
+    opacity: 1;
+  }
+  footer {
+			text-align: center;
+			width: 100%;
+			border-top: 1px solid #ccc;
+		}
+		
+		
+		.developers {
+            text-align: center;
+            color: #fff;
+		}
+		
+		.about a {
+            color: whitesmoke;
+            text-decoration: none;
+            font-size: x-large;
+		}
+
+        .about a:link {
+       color:#bcb6b6;
+    }
+
+    .about a:visited {
+       color:#bcb6b6;
+    }
+
+     .about a:hover {
+      background-color: rgb(186, 186, 186);
+      opacity: 0.8;
+      color: black
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Create the navigation bar -->
+  <div class="navbar">
+    <a style="background-color: rgb(229, 127, 127);" href="home.html"><b>Home</b></a>
+    <!-- <a class="wave" href="#home"><b>Wave</b></a> -->
+    <a href="artists.html"><b>Artists</b></a>
+    <a href="about.html"><b>About</b></a>
+</div>
+  <div class="vroom">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p class="koii"><b>Welcome to Wave</b></p>
+    <p class="zoii">Explore the Musiverse</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 style="margin-left: 1.2cm; font-family: Verdana, Geneva, Tahoma, sans-serif;">Top Artists</h1>
+    <br>
+    <div class="grid-container">
+      <div class="grid">
+        <div class="grid-item">
+          <a href="anirudh_albums.html">
+          <img src="anirudh.jpeg" alt="Image 1">
+          <h3>Anirudh Ravichander</h3></a>
+        </div>
+        <div class="grid-item">
+          <a href="shawn.html">
+          <img src="shawn.jpeg" alt="Image 2">
+          <h3>Shawn Mendes</h3></a>
+        </div>
+        <div class="grid-item">
+          <a href="ariana.html">
+          <img src="ariana_home.webp" alt="Ariana Grande">
+          <h3>Ariana Grande</h3></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <h1 style="margin-left: 1.2cm; font-family: Verdana, Geneva, Tahoma, sans-serif;">Top Albums</h1>
+    <br>
+    <div class="grid-container">
+      <div class="grid">
+        <div class="grid-item">
+          <a href="illuminatefinal.html">
+          <img src="illuminate.jpeg" alt="Image 1">
+          <h3>Illuminate (2016)</h3></a>
+        </div>
+        <div class="grid-item">
+          <a href="24final.html">
+          <img src="24.jpeg" alt="Image 2">
+          <h3>24 (2016)</h3></a>
+        </div>
+        <div class="grid-item">
+          <a href="masterfinal.html">
+          <img src="master_home.jpeg" alt="Ariana Grande">
+          <h3>Master (2021)</h3>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <h1 style="margin-left: 1.2cm; font-family: Verdana, Geneva, Tahoma, sans-serif;">Top Songs</h1>
+  <br>
+  <div class="grid-container">
+    <div class="grid">
+      <div class="grid-item">
+        <img src="blindinglights.webp" alt="Image 1">
+        <h3>Blinding Lights</h3>
+      </div>
+      <div class="grid-item">
+        <img src="ariana_positions.webp" alt="Image 2">
+        <h3>Positions</h3>
+      </div>
+      <div class="grid-item">
+        <img src="3.jpeg" alt="Image 3">
+        <h3>Po Ve Po</h3>
+      </div>
+    </div>
+  </div>
+</div>
+  <br>
+  <br>
+  <br>
+  <footer>
+    <br>
+    <img src="hmm.png" width="10%" height="10%">
+        <!-- <div class="container"> -->
+            <div class="developers">
+                <h3>Developed by Nijesh and Vamsee</h3>
+            </div>
+            <div class="about">
+                <p><a href="about.html">About</a></p>
+            </div>
+        <!-- </div> -->
+    </footer>  
+</body>
+
+</html>
